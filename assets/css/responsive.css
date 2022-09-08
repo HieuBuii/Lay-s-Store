@@ -1,0 +1,143 @@
+@media screen and (max-width: 1024px) {
+  .content__container {
+    padding-bottom: 20px;
+  }
+  .header__search {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header__nav {
+    position: relative;
+  }
+  .header__list {
+    opacity: 0;
+    visibility: hidden;
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    flex-wrap: wrap;
+    transition: all 0.3s linear;
+  }
+  .is-active {
+    opacity: 1;
+    visibility: visible;
+  }
+  .header__list > li {
+    display: block;
+    background-color: #fff;
+    border-top: 1px solid #999;
+    width: 100%;
+  }
+  .header__list > li a {
+    width: 100%;
+    display: block;
+    padding: 20px;
+  }
+  .header__user,
+  .header__btn {
+    display: none;
+  }
+  .header__btn-mobile {
+    display: block;
+    font-size: 2rem;
+  }
+  .product__item {
+    width: calc(50% - 20px);
+  }
+  .testimonial__btn {
+    margin: 0 5px;
+  }
+  .footer__container {
+    flex-direction: column-reverse;
+  }
+  .footer__content,
+  .footer__img {
+    width: 100%;
+  }
+  .footer__content {
+    margin-top: 20px;
+  }
+  .footer__list {
+    flex-wrap: wrap;
+  }
+  .footer__list li,
+  .footer__item {
+    width: 100%;
+    font-size: 1.8rem;
+  }
+  .footer__item {
+    padding: 10px 0;
+  }
+  .footer__text {
+    font-size: 2rem;
+  }
+  .footer__link {
+    font-size: 3rem;
+  }
+  .footer__copyright {
+    font-size: 1.8rem;
+  }
+}
+
+@media screen and (max-width: 636px) {
+  .content__container {
+    flex-direction: column-reverse;
+  }
+  .header__content {
+    width: 100%;
+  }
+  .header__img {
+    width: 100%;
+    margin: 10px;
+  }
+  .feature__container {
+    flex-direction: column;
+  }
+  .feature__info,
+  .feature__content {
+    width: 100%;
+  }
+  .feature__info {
+    margin-bottom: 20px;
+  }
+  .feature__content-img {
+    display: none;
+  }
+  .product__item {
+    width: 100%;
+  }
+  .testimonial__container {
+    flex-direction: column-reverse;
+  }
+  .testimonial__content {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .testimonial__img {
+    width: 100%;
+  }
+  .find {
+    padding: 20px 0;
+  }
+  .find__block {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .testimonial__author {
+    flex-wrap: wrap;
+  }
+  .testimonial__info {
+    width: 100%;
+  }
+  .testimonial__more {
+    margin-top: 10px;
+    width: 100%;
+  }
+}
